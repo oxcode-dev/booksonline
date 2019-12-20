@@ -1,7 +1,7 @@
 const mix = require('laravel-mix');
 
-mix.js('src/app.js', 'dist/js')
-    .sass('src/app.scss', 'dist/css')
+mix.js('src/app.js', 'scripts/js')
+    .sass('src/app.scss', 'scripts/css')
     .options({
         extractVueStyles: false, // Extract .vue component styling to file, rather than inline.
         processCssUrls: true, // Process/optimize relative stylesheet url()'s. Set to false, if you don't want them touched.
